@@ -1,18 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Contact</title>
-  <meta name="author" content="Team AU SON VERT">
-  <meta name="description" content="Contactez-nous grâce à ce formulaire de contact">
-  <meta name="keywords" content="Contact, Message, Aide, Requête">
-  <link rel="stylesheet" href="styles.css" type="text/css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
-  </head>
-  <?php require('header.php')?>
-  <body>
+
+<?php
+$titlePage = 'Contact - Au Son Vert';
+$metadescriptionPage = 'Posez toutes vos questions à notre équipe de spécialistes ou faites-nous part de vos remarques pour améliorer le site !';
+require ('header.php')
+?>
+
     <h1 class="title-contact">Contactez-nous !</h1>
     <div class="Bloc-container">
             <div class="Bloc"></div>
@@ -35,8 +29,10 @@
             </form>
             <div class="Bloc"></div>
     </div>
-  </body>
-  <script src="form.js"></script>
+<script src="form.js"></script>
+<?php require("footer.php") ?>
+
+
 </html>
 
 
